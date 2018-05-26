@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">4oJsHaMNl3RNjgd0u8u0yjBZEI6IOhcGsD9rG7zW</string>
+    <string name="back4app_client_key">lUFSgLuuNz4JgqEdw3eHEQ6iwQZRiAxWF2UfC4Sp</string>
+
+    <string name="prompt_email">E-Mail</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="key_company_id">company_id</string>
+    <string name="key_variant">key_variant</string>
+    <string name="db_name">InventoryDatabase</string>
+    <string name="db_version">DatabaseVersion</string>
+    <string name="key_main_object">MainObject</string>
+
+</resources>

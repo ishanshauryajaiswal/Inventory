@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/tvFactory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:text="Factory"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tvRepackaging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvFactory"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:text="Repackaging"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/tvRepair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvRepackaging"
+            android:layout_margin="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:text="Repair"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
